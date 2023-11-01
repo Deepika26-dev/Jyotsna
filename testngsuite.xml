@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"><!-- Suite -->
+
+	<listeners>
+		<listener class-name="com.Mohs10.utility.ListenerClass" />
+		<listener class-name="com.Mohs10.utility.TestallureListener" /> 
+	</listeners>
+
+	<test name="Test_All">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+<!--			<class name="com.Mohs10.TestScripts.JSuperAdmin_Login" />-->
+<!--			<class name="com.Mohs10.TestScripts.JValidateTitleAndLogo"/>-->
+
+<!--				<class name="com.Mohs10.TestScripts.Super_AddAdmin" />-->
+<!--				<class name="com.Mohs10.TestScripts.Super_AddLocation"/>-->
+<!--				<class name = "com.Mohs10.TestScripts.Super_User_Edit_Delete"/>-->
+<!--				<class name = "com.Mohs10.TestScripts.Admin_AddUser"/>		-->
+<!--					<class name = "com.Mohs10.TestScripts.Receptionist_Addpatient"/>-->
+					<class name = "com.Mohs10.TestScripts.Salesforce_addContact"/>
+
+<!--			<class name="com.Mohs10.Reports.PDFReportTest" />-->
+		</classes>
+
+	</test><!--Test -->
+</suite>
